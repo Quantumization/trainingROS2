@@ -1,3 +1,4 @@
+# Частота heartbeat, Гц. Имя параметра должно совпадать с declare_parameter в ноде.
 training_diagnostics:
   ros__parameters:
     publish_rate: 2.0

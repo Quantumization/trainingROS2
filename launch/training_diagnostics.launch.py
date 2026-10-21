@@ -6,6 +6,7 @@ from launch_ros.actions import Node
 
 
 def generate_launch_description():
+    # Путь к установленной копии YAML (share/training_diagnostics/config).
     package_share = Path(get_package_share_directory("training_diagnostics"))
     parameters_file = package_share / "config" / "diagnostics.yaml"
 
